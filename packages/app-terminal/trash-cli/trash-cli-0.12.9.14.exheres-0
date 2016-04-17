@@ -1,0 +1,19 @@
+# Copyright 2016 Colin Benner <colin-exherbo@yzhs.de>
+# Distributed under the terms of the GNU General Public License v2
+
+#require github [ user=andreafrancia tag="${PV}" ]
+require pypi [ pn="trash-cli" ]
+require setup-py [ import=distutils has_bin=true ]
+
+SUMMARY="Command line interface to the freedesktop.org trashcan"
+
+LICENCES="GPL-2"
+SLOT="0"
+MYOPTIONS=""
+
+PLATFORMS="~amd64 ~x86"
+
+DEPENDENCIES=""
+
+BUGS_TO="colin-exherbo@yzhs.de"
+
